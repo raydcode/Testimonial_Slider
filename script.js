@@ -16,7 +16,7 @@ function nextSlide() {
   if (index > slides.length) {
     index = 0;
   }
-  displaySlide(index)
+  displaySlide(index);
 }
 
 function prevSlide() {
@@ -24,9 +24,9 @@ function prevSlide() {
   if (index < 0) {
     index = slides.length - 1;
   }
-  displaySlide(index)
+  displaySlide(index);
 }
 
-next.addEventListener('click',nextSlide);
-prev.addEventListener('click',prevSlide);
-displaySlide(index)
+next.addEventListener('click', nextSlide);
+prev.addEventListener('click', prevSlide);
+displaySlide(index);
