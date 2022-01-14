@@ -1,4 +1,4 @@
 # Testimonial Slider
 
 
-# Live-Demo:
+# Live-Demo:https://raydcode.github.io/Testimonial_Slider/
